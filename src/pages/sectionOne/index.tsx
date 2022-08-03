@@ -8,9 +8,9 @@ import './index.css'
 function SectionOne() {
   return (
     <section className='container'>
-      <header className='d-flex justify-content-between align-items-center' style={{ position: 'relative', zIndex: '9999' }}>
+      <header className='d-flex justify-content-between align-items-center' >
         <a className="logo" href='/'>
-          <BoldoIcon style={{ marginRight: "10px" }} /> Boldo
+          <BoldoIcon className='mr-1' /> Boldo
         </a>
         <nav className='desktop-nav'>
           <ul>
@@ -94,7 +94,7 @@ function SectionOne() {
             </div>
             <div className="right">
               <Glass>
-                <div style={{ alignItems: 'center' }} className="d-flex align-items-center justify-content-between">
+                <div className="d-flex align-items-center justify-content-between">
                   <div className="circle"></div>
                   <div className="lines">
                     <StraightLine width='100%' marginBottom='var(--h-10)' height='var(--h-10)' />
@@ -112,10 +112,10 @@ function SectionOne() {
         <div className="slider">
           {
             Array(10).fill(0).map((item, idx) =>
-              <>
+              <div key={idx}>
                 <div className="item"><BoldoIcon color='white' /> <span className='d-inline-block ml-1'>Boldo</span></div>
                 <div className="item"><PieIcon /> <span className='d-inline-block ml-1'>Presto</span> </div>
-              </>
+              </div>
             )
           }
         </div>
