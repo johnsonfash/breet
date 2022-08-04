@@ -422,7 +422,7 @@ nav .login {
     width: 35px;
     display: block;
     cursor: pointer;
-    z-index: 5;
+    z-index: 6;
     position: relative;
     height: 30px;
   }
@@ -434,8 +434,6 @@ nav .login {
     padding: 0;
     margin: 0;
     background-color: var(--green);
-  }
-  .hambugger span.top {
   }
   .hambugger span.middle {
     top: calc(50% - 2px);
@@ -455,6 +453,7 @@ nav .login {
     padding: 7rem 0;
     top: 0;
     bottom: 0;
+    z-index: 5;
     transition: all 0.3s;
   }
   .mobile-nav ul {
