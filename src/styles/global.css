@@ -15,7 +15,7 @@ html {
   cursor: pointer;
 }
 .d-inline-block {
-  display: inline-block;
+  display: inline-block !important;
 }
 .d-block {
   display: block;

@@ -278,6 +278,9 @@ nav .login {
   line-height: 28px;
   animation: sliding 10s infinite;
 }
+.slider .item.first {
+  margin-left: 42px;
+}
 @keyframes sliding {
   0% {
     transform: translate3d(0, 0, 0);

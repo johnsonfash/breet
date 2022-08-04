@@ -112,8 +112,8 @@ function SectionOne() {
         <div className="slider">
           {
             Array(10).fill(0).map((item, idx) =>
-              <div key={idx}>
-                <div className="item"><BoldoIcon color='white' /> <span className='d-inline-block ml-1'>Boldo</span></div>
+              <div key={idx} className="d-flex">
+                <div className="item first"><BoldoIcon color='white' /> <span className='d-inline-block ml-1'>Boldo</span></div>
                 <div className="item"><PieIcon /> <span className='d-inline-block ml-1'>Presto</span> </div>
               </div>
             )
