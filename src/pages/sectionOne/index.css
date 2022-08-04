@@ -486,6 +486,9 @@ nav .login {
     margin-bottom: 0.5rem;
     line-height: 42px;
   }
+  .main p {
+    line-height: 22px;
+  }
   .main .buttons-container a {
     font-size: 14px;
     padding: 9px 26px;
