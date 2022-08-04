@@ -505,4 +505,7 @@ nav .login {
   .bottom-glass .top-section {
     margin-left: calc(6px * 4);
   }
+  .glass .menu {
+    margin-left: 0.5rem;
+  }
 }
