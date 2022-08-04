@@ -492,4 +492,17 @@ nav .login {
     font-size: 14px;
     padding: 9px 26px;
   }
+  :root {
+    --h-10: 6px;
+    --h-20: 12px;
+    --h-30: 22px;
+    --h-40: 32px;
+    --h-50: 42px;
+    --h-60: 52px;
+    --h-70: 62px;
+    --h-80: 70px;
+  }
+  .bottom-glass .top-section {
+    margin-left: calc(6px * 4);
+  }
 }
