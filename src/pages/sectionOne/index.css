@@ -481,4 +481,8 @@ nav .login {
   #hambuggerInput:not(:checked) ~ .mobile-nav {
     right: -200px;
   }
+  .main .buttons-container a {
+    font-size: 14px;
+    padding: 9px 26px;
+  }
 }
