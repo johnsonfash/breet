@@ -10,6 +10,9 @@
   --h-70: 70px;
   --h-80: 80px;
 }
+body{
+  background-color: var(--background);
+}
 .container {
   position: relative;
   background-color: var(--background);
